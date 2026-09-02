@@ -34,6 +34,26 @@ The project uses FAOSTAT agricultural production data for Colombia.
 
 The original dataset was intentionally modified as part of a training exercise to introduce data quality issues and simulate a real-world data cleaning scenario.
 
+## Dashboard
+
+An interactive dashboard was developed in **Looker Studio** to explore the agricultural production analysis.
+
+The dashboard includes:
+
+- Top agricultural products
+- Historical production trends
+- Average production
+- Average productivity
+- Cultivated area
+- Production growth
+- Product segmentation
+- Production vs productivity
+- Historical productivity evolution
+
+The dashboard link is available in:
+
+**[View Interactive Dashboard](https://datastudio.google.com/reporting/ef9c674b-8bfb-432c-ea78b0ffd7bc)**
+
 ### Data Quality Issues Addressed
 
 - Missing and invalid values
@@ -58,7 +78,6 @@ FAOSTAT_Clean.csv
 The complete cleaning workflow is documented in:
 
 FAOSTAT_data_cleaning.py
-
 
 ## Analytical Approach
 
@@ -92,28 +111,17 @@ Sugar cane therefore had roughly 4.6 times the cumulative production of the seco
 
 Other major products included:
 
-Raw cow milk
-
-Rice
-
-Potatoes
-
-Green and cooking bananas
-
-Beer from malted barley
-
-Bananas
-
-Fresh chicken meat
-
-Maize
-
-Palm oil
-
-Cassava
-
-Chicken eggs
-
+- Raw cow milk
+- Rice
+- Potatoes
+- Green and cooking bananas
+- Beer from malted barley
+- Bananas
+- Fresh chicken meat
+- Maize
+- Palm oil
+- Cassava
+- Chicken eggs
 
 ### 2. Long-Term Production Trends
 
@@ -238,15 +246,11 @@ Its historical productivity provides additional context, showing lower productiv
 
 This makes cacao a potential candidate for investigating:
 
-Production efficiency
-
-Agricultural practices
-
-Technological interventions
-
-Process optimization
-
-Factors associated with productivity changes
+- Production efficiency
+- Agricultural practices
+- Technological interventions
+- Process optimization
+- Factors associated with productivity changes
 
 Chicken eggs with shell also fall within this category, showing relatively limited productivity change over the historical period.
 
@@ -258,33 +262,22 @@ Products in this category combine significant production scale with relatively h
 
 Representative examples include:
 
-Sugar cane
-
-Palm kernel oil
-
-Potatoes
-
-Bananas
-
-Sorghum
-
-Maize
-
-Rice
-
+- Sugar cane
+- Palm kernel oil
+- Potatoes
+- Bananas
+- Sorghum
+- Maize
+- Rice
+  
 These products can be considered candidates for investigating:
 
-Agricultural residue valorization
-
-By-product utilization
-
-Biomass transformation
-
-Fermentation
-
-Bio-based products
-
-Value-added processing
+- Agricultural residue valorization
+- By-product utilization
+- Biomass transformation
+- Fermentation
+- Bio-based products
+- Value-added processing
 
 The dataset does not establish the economic feasibility of these opportunities. It provides a quantitative basis for identifying products that may merit further investigation.
 
@@ -296,19 +289,13 @@ Products in this category combine relatively high productivity with lower produc
 
 Examples include:
 
-Eggplants
-
-Spinach
-
-Cashew nuts
-
-Asparagus
-
-Oats
-
-Peanuts with shell
-
-Beet sugar
+- Eggplants
+- Spinach
+- Cashew nuts
+- Asparagus
+- Oats
+- Peanuts with shell
+- Beet sugar
 
 These products can be considered candidates for further investigation into scaling, commercialization, processing, and market development.
 
@@ -324,9 +311,8 @@ Dry lentils are the clearest example.
 
 Two products also appear close to the boundary with the Market Expansion category:
 
-Dry chickpeas
-
-Sesame seeds
+- Dry chickpeas
+- Sesame seeds
 
 These cases demonstrate that the classification depends on the relative position of each product around the median thresholds.
 
@@ -338,43 +324,12 @@ This provides additional context to the production-productivity framework by sho
 
 The historical analysis can help distinguish between:
 
-Productivity improvement
-
-Productivity stagnation
-
-Productivity decline
-
-More recent changes
+- Productivity improvement
+- Productivity stagnation
+- Productivity decline
+- More recent changes
 
 The cacao case demonstrates how a current strategic classification can be interpreted together with historical performance rather than from a single point in time.
-
-## Dashboard
-
-An interactive dashboard was developed in Looker Studio to explore the analysis.
-
-The dashboard includes:
-
-Top agricultural products
-
-Historical production trends
-
-Average production
-
-Average productivity
-
-Cultivated area
-
-Production growth
-
-Product segmentation
-
-Production vs. productivity
-
-Historical productivity evolution
-
-The dashboard link is available in:
-
-dashboard/README.md
 
 ## Tools & Technologies
 
