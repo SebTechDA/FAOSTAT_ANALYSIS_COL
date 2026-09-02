@@ -48,6 +48,12 @@ The dashboard link is available in:
 
 **[View Interactive Dashboard](https://datastudio.google.com/reporting/ef9c674b-8bfb-432f-a9c3-ea78b0ffd7bc)**
 
+### Dashboard Preview
+
+![Dashboard Overview](Dashboard%20Overview.png)
+
+![Strategic Opportunities](Estrategic%20oportunities.PNG)
+
 ## Dataset & Data Preparation
 
 The project uses FAOSTAT agricultural production data for Colombia.
