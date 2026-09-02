@@ -30,6 +30,8 @@ The analysis was structured around four main questions:
 
 ## Dashboard
 
+Languague: Spanish 
+
 An interactive dashboard was developed in **Looker Studio** to explore the agricultural production analysis.
 
 The dashboard includes:
@@ -50,7 +52,7 @@ The dashboard link is available in:
 
 ### Dashboard Preview
 
-![Dashboard Overview](Dashboard%20Overview.png)
+![Dashboard Overview](Dashboard%20Overview.PNG)
 
 ![Strategic Opportunities](Estrategic%20oportunities.PNG)
 
