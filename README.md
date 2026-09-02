@@ -44,7 +44,7 @@ The original dataset was intentionally modified as part of a training exercise t
 - Negative and extreme values
 - Missing production values
 - Missing units
-- 
+
 ### Cleaning Approach
 
 A Python-based cleaning pipeline was developed using Pandas and custom validation and imputation functions.
