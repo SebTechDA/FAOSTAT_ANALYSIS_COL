@@ -36,7 +36,7 @@ The analysis addresses four key questions:
 
 Languague: Spanish 
 
-[View the interactive dashboard]: https://datastudio.google.com/reporting/ef9c674b-8bfb-432f-a9c3-ea78b0ffd7bc
+[View the interactive dashboard](https://datastudio.google.com/reporting/ef9c674b-8bfb-432f-a9c3-ea78b0ffd7bc)
 
 ## Tool
 
