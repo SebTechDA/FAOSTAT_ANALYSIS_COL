@@ -31,12 +31,19 @@ The original dataset was intentionally modified as part of a training exercise t
 The cleaning process addressed:
 
 Missing and invalid values
+
 Inconsistent text formatting
+
 Typographical variations
+
 Incorrect data types
+
 Invalid years
+
 Negative and extreme values
+
 Missing production values
+
 Missing units
 
 A Python-based cleaning pipeline was developed using Pandas and custom validation and imputation functions.
@@ -57,18 +64,27 @@ FAOSTAT_data_cleaning.py
 Two complementary time periods were used:
 
 1961–2024: long-term historical production trends.
+
 2014–2024: recent product comparisons, productivity, cultivated area, growth, and strategic opportunity analysis.
 
 The analysis includes:
 
 Exploratory Data Analysis (EDA)
+
 Descriptive statistics
+
 Historical trend analysis
+
 Production rankings
+
 Productivity analysis
+
 Cultivated area analysis
+
 Production growth analysis
+
 Median-based product segmentation
+
 Production vs. productivity analysis
 
 
@@ -85,15 +101,25 @@ Sugar cane therefore had roughly 4.6 times the cumulative production of the seco
 Other major products included:
 
 Raw cow milk
+
 Rice
+
 Potatoes
+
 Green and cooking bananas
+
 Beer from malted barley
+
 Bananas
+
 Fresh chicken meat
+
 Maize
+
 Palm oil
+
 Cassava
+
 Chicken eggs
 
 
@@ -118,30 +144,47 @@ Average annual production
 The highest-production products include:
 
 Sugar cane
+
 Raw cow milk
+
 Palm kernel oil
+
 Green and cooking bananas
+
 Potatoes
+
 Rice
+
 Average annual productivity
 
 The highest-productivity products include:
 
 Sugar cane
+
 Pineapple
+
 Papayas
+
 Cabbages
+
 Bananas
+
 Strawberries
+
 Average cultivated area
 
 The products with the largest cultivated areas include:
 
 Palm oil
+
 Green coffee
+
 Maize
+
 Rice
+
 Sugar cane
+
 Green and cooking bananas
 
 This comparison shows that production scale, productivity, and cultivated area provide different perspectives on agricultural performance.
@@ -161,9 +204,13 @@ Large-scale products with strong growth.
 Examples include:
 
 Chicken eggs
+
 Palm oil
+
 Raw cow milk
+
 Fresh chicken meat
+
 Avocado
 
 Emergentes
@@ -175,10 +222,15 @@ Products growing from a smaller production base.
 Examples include:
 
 Cashew nuts
+
 Sesame oil
+
 Eggplants
+
 Asparagus
+
 Chili peppers
+
 Pears
 
 Consolidados
@@ -190,8 +242,11 @@ Large-scale products with relatively limited growth.
 Examples include:
 
 Sugar cane
+
 Skim milk
+
 Coconut with shell
+
 Other tropical fruits
 
 Nicho
@@ -223,9 +278,13 @@ Its historical productivity provides additional context, showing lower productiv
 This makes cacao a potential candidate for investigating:
 
 Production efficiency
+
 Agricultural practices
+
 Technological interventions
+
 Process optimization
+
 Factors associated with productivity changes
 
 Chicken eggs with shell also fall within this category, showing relatively limited productivity change over the historical period.
@@ -239,20 +298,31 @@ Products in this category combine significant production scale with relatively h
 Representative examples include:
 
 Sugar cane
+
 Palm kernel oil
+
 Potatoes
+
 Bananas
+
 Sorghum
+
 Maize
+
 Rice
 
 These products can be considered candidates for investigating:
 
 Agricultural residue valorization
+
 By-product utilization
+
 Biomass transformation
+
 Fermentation
+
 Bio-based products
+
 Value-added processing
 
 The dataset does not establish the economic feasibility of these opportunities. It provides a quantitative basis for identifying products that may merit further investigation.
@@ -266,11 +336,17 @@ Products in this category combine relatively high productivity with lower produc
 Examples include:
 
 Eggplants
+
 Spinach
+
 Cashew nuts
+
 Asparagus
+
 Oats
+
 Peanuts with shell
+
 Beet sugar
 
 These products can be considered candidates for further investigation into scaling, commercialization, processing, and market development.
@@ -288,6 +364,7 @@ Dry lentils are the clearest example.
 Two products also appear close to the boundary with the Market Expansion category:
 
 Dry chickpeas
+
 Sesame seeds
 
 These cases demonstrate that the classification depends on the relative position of each product around the median thresholds.
@@ -301,8 +378,11 @@ This provides additional context to the production-productivity framework by sho
 The historical analysis can help distinguish between:
 
 Productivity improvement
+
 Productivity stagnation
+
 Productivity decline
+
 More recent changes
 
 The cacao case demonstrates how a current strategic classification can be interpreted together with historical performance rather than from a single point in time.
@@ -314,13 +394,21 @@ An interactive dashboard was developed in Looker Studio to explore the analysis.
 The dashboard includes:
 
 Top agricultural products
+
 Historical production trends
+
 Average production
+
 Average productivity
+
 Cultivated area
+
 Production growth
+
 Product segmentation
+
 Production vs. productivity
+
 Historical productivity evolution
 
 The dashboard link is available in:
@@ -330,8 +418,11 @@ dashboard/README.md
 ## Tools & Technologies
 
 Data Analysis & Cleaning
+
 Python
+
 Pandas
+
 NumPy
 
 Data Inspection & Validation
@@ -345,11 +436,17 @@ Looker Studio
 Analytical Methods
 
 Exploratory Data Analysis (EDA)
+
 Descriptive statistics
+
 Time-series analysis
+
 Productivity analysis
+
 Growth analysis
+
 Median-based segmentation
+
 Strategic opportunity analysis
 
 ## Limitations
