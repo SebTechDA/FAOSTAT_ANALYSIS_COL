@@ -28,12 +28,6 @@ The analysis was structured around four main questions:
 
 4. **Which products could support potential new business lines or value-added opportunities?**
 
-## Dataset & Data Preparation
-
-The project uses FAOSTAT agricultural production data for Colombia.
-
-The original dataset was intentionally modified as part of a training exercise to introduce data quality issues and simulate a real-world data cleaning scenario.
-
 ## Dashboard
 
 An interactive dashboard was developed in **Looker Studio** to explore the agricultural production analysis.
@@ -53,6 +47,12 @@ The dashboard includes:
 The dashboard link is available in:
 
 **[View Interactive Dashboard](https://datastudio.google.com/reporting/ef9c674b-8bfb-432c-ea78b0ffd7bc)**
+
+## Dataset & Data Preparation
+
+The project uses FAOSTAT agricultural production data for Colombia.
+
+The original dataset was intentionally modified as part of a training exercise to introduce data quality issues and simulate a real-world data cleaning scenario.
 
 ### Data Quality Issues Addressed
 
