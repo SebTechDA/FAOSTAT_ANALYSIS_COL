@@ -1,6 +1,4 @@
-##FAOSTAT_ANALYSIS_COL
-
-FAOSTAT Colombia – Agricultural Data Analysis
+# FAOSTAT Colombia – Agricultural Data Analysis
 
 ## Project Overview
 
@@ -10,17 +8,25 @@ The project follows an end-to-end data analysis workflow, including data cleanin
 
 The analysis combines agricultural data with a business-oriented perspective to move from descriptive insights toward potential opportunities in productivity improvement, market expansion, and circular economy.
 
+## Key Results
+
+- **374.5M tonnes** of cumulative sugar cane production between 2014 and 2024.
+- Sugar cane reached approximately **4.6× the production** of the second-ranked product.
+- Total agricultural production increased approximately **fourfold** between 1961 and 2024.
+- Products were segmented according to **production scale, growth, and productivity**.
+- An interactive **Looker Studio dashboard** was developed to explore the results.
+
 ## Business Questions
 
 The analysis was structured around four main questions:
 
-What are the main agricultural products in Colombia?
+1. **What are the main agricultural products in Colombia?**
 
-How has agricultural production evolved over time?
+2. **How has agricultural production evolved over time?**
 
-Which products may represent opportunities for innovation or productivity improvement?
+3. **Which products may represent opportunities for innovation or productivity improvement?**
 
-Which products could support potential new business lines or value-added opportunities?
+4. **Which products could support potential new business lines or value-added opportunities?**
 
 ## Dataset & Data Preparation
 
@@ -28,23 +34,18 @@ The project uses FAOSTAT agricultural production data for Colombia.
 
 The original dataset was intentionally modified as part of a training exercise to introduce data quality issues and simulate a real-world data cleaning scenario.
 
-The cleaning process addressed:
+### Data Quality Issues Addressed
 
-Missing and invalid values
-
-Inconsistent text formatting
-
-Typographical variations
-
-Incorrect data types
-
-Invalid years
-
-Negative and extreme values
-
-Missing production values
-
-Missing units
+- Missing and invalid values
+- Inconsistent text formatting
+- Typographical variations
+- Incorrect data types
+- Invalid years
+- Negative and extreme values
+- Missing production values
+- Missing units
+- 
+### Cleaning Approach
 
 A Python-based cleaning pipeline was developed using Pandas and custom validation and imputation functions.
 
@@ -67,30 +68,21 @@ Two complementary time periods were used:
 
 2014–2024: recent product comparisons, productivity, cultivated area, growth, and strategic opportunity analysis.
 
-The analysis includes:
+### Analytical Methods
 
-Exploratory Data Analysis (EDA)
-
-Descriptive statistics
-
-Historical trend analysis
-
-Production rankings
-
-Productivity analysis
-
-Cultivated area analysis
-
-Production growth analysis
-
-Median-based product segmentation
-
-Production vs. productivity analysis
-
+- Exploratory Data Analysis (EDA)
+- Descriptive statistics
+- Historical trend analysis
+- Production rankings
+- Productivity analysis
+- Cultivated area analysis
+- Production growth analysis
+- Median-based segmentation
+- Production vs. productivity analysis
 
 ## Key Findings
 
-Production Landscape
+### 1. Production Landscape
 
 Sugar cane was the dominant product in cumulative production between 2014 and 2024, reaching approximately 374.5 million tonnes.
 
@@ -123,7 +115,7 @@ Cassava
 Chicken eggs
 
 
-Long-Term Production Trends
+### 2. Long-Term Production Trends
 
 Total agricultural production shows a strong long-term increase between 1961 and 2024, with overall production increasing approximately fourfold.
 
@@ -133,125 +125,94 @@ For example, production experienced a notable decline between 2016 and 2017 befo
 
 The dashboard also allows users to filter products and explore their individual historical production trajectories.
 
-Production, Productivity and Cultivated Area
+### 3. Production, Productivity and Cultivated Area
 
 Production volume alone does not provide a complete picture of agricultural performance.
 
 For this reason, the recent analysis compares three dimensions between 2014 and 2024:
 
-Average annual production
+#### Average Annual Production
 
 The highest-production products include:
 
-Sugar cane
+- Sugar cane
+- Raw cow milk
+- Palm kernel oil
+- Green and cooking bananas
+- Potatoes
+- Rice
 
-Raw cow milk
+#### Average Annual Productivity
 
-Palm kernel oil
+- Sugar cane
+- Pineapple
+- Papayas
+- Cabbages
+- Bananas
+- Strawberries
 
-Green and cooking bananas
+#### Average Cultivated Area
 
-Potatoes
-
-Rice
-
-Average annual productivity
-
-The highest-productivity products include:
-
-Sugar cane
-
-Pineapple
-
-Papayas
-
-Cabbages
-
-Bananas
-
-Strawberries
-
-Average cultivated area
-
-The products with the largest cultivated areas include:
-
-Palm oil
-
-Green coffee
-
-Maize
-
-Rice
-
-Sugar cane
-
-Green and cooking bananas
+- Palm oil
+- Green coffee
+- Maize
+- Rice
+- Sugar cane
+- Green and cooking bananas
 
 This comparison shows that production scale, productivity, and cultivated area provide different perspectives on agricultural performance.
 
-Production Growth Segmentation
+### 4. Production Growth Segmentation
 
 Products were classified according to their production scale and growth between 2014 and 2024.
 
 Median values were used as thresholds to distinguish relatively high and low production and growth.
 
-Estrellas
+#### Estrellas
 
-High production + High growth
+**High production + High growth**
 
 Large-scale products with strong growth.
 
-Examples include:
+Examples:
 
-Chicken eggs
+- Chicken eggs
+- Palm oil
+- Raw cow milk
+- Fresh chicken meat
+- Avocado
 
-Palm oil
+#### Emergentes
 
-Raw cow milk
-
-Fresh chicken meat
-
-Avocado
-
-Emergentes
-
-Low production + High growth
+**Low production + High growth**
 
 Products growing from a smaller production base.
 
-Examples include:
+Examples:
 
-Cashew nuts
+- Cashew nuts
+- Sesame oil
+- Eggplants
+- Asparagus
+- Chili peppers
+- Pears
 
-Sesame oil
+#### Consolidados
 
-Eggplants
-
-Asparagus
-
-Chili peppers
-
-Pears
-
-Consolidados
-
-High production + Low growth
+**High production + Low growth**
 
 Large-scale products with relatively limited growth.
 
 Examples include:
 
-Sugar cane
+- Sugar cane
+- Skim milk
+- Coconut with shell
+- Other tropical fruits
 
-Skim milk
+#### Nicho
 
-Coconut with shell
-
-Other tropical fruits
-
-Nicho
-
-Low production + Low growth
+**Low production + Low growth**
 
 Products with relatively lower production scale and growth.
 
@@ -265,9 +226,9 @@ Both variables are displayed using logarithmic scales because the products diffe
 
 Median production and productivity values are used to identify four strategic categories.
 
-Improvement in Yield
+### Improvement in Yield
 
-High production + Low productivity
+**High production + Low productivity**
 
 Products in this category combine significant production scale with comparatively lower productivity.
 
@@ -289,9 +250,9 @@ Factors associated with productivity changes
 
 Chicken eggs with shell also fall within this category, showing relatively limited productivity change over the historical period.
 
-Circular Economy Potential
+### Circular Economy Potential
 
-High production + High productivity
+**High production + High productivity**
 
 Products in this category combine significant production scale with relatively high productivity.
 
@@ -327,9 +288,9 @@ Value-added processing
 
 The dataset does not establish the economic feasibility of these opportunities. It provides a quantitative basis for identifying products that may merit further investigation.
 
-Market Expansion
+### Market Expansion
 
-Low production + High productivity
+**Low production + High productivity**
 
 Products in this category combine relatively high productivity with lower production scale.
 
@@ -353,9 +314,9 @@ These products can be considered candidates for further investigation into scali
 
 Production growth should not be interpreted directly as consumer demand. Additional market, price, cost, and demand data would be required to evaluate these opportunities.
 
-Review Feasibility
+### Review Feasibility
 
-Low production + Low productivity
+**Low production + Low productivity**
 
 Products in this category combine relatively low production with relatively low productivity.
 
@@ -417,37 +378,29 @@ dashboard/README.md
 
 ## Tools & Technologies
 
-Data Analysis & Cleaning
+### Data Analysis & Cleaning
 
-Python
+- Python
+- Pandas
+- NumPy
 
-Pandas
+### Data Inspection & Validation
 
-NumPy
+- Microsoft Excel — used to inspect the dataset, review the cleaned CSV output, and visually validate changes during the cleaning process.
 
-Data Inspection & Validation
+### Data Visualization & BI
 
-Microsoft Excel — used to inspect the dataset, review the cleaned CSV output, and visually validate changes during the cleaning process.
+- Looker Studio
 
-Data Visualization & BI
+### Analytical Methods
 
-Looker Studio
-
-Analytical Methods
-
-Exploratory Data Analysis (EDA)
-
-Descriptive statistics
-
-Time-series analysis
-
-Productivity analysis
-
-Growth analysis
-
-Median-based segmentation
-
-Strategic opportunity analysis
+- Exploratory Data Analysis (EDA)
+- Descriptive statistics
+- Time-series analysis
+- Productivity analysis
+- Growth analysis
+- Median-based segmentation
+- Strategic opportunity analysis
 
 ## Limitations
 
