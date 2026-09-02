@@ -46,7 +46,7 @@ The dashboard includes:
 
 The dashboard link is available in:
 
-**[View Interactive Dashboard](https://datastudio.google.com/reporting/ef9c674b-8bfb-432c-ea78b0ffd7bc)**
+**[View Interactive Dashboard](https://datastudio.google.com/reporting/ef9c674b-8bfb-432f-a9c3-ea78b0ffd7bc)**
 
 ## Dataset & Data Preparation
 
