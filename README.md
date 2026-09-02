@@ -15,10 +15,14 @@ The analysis combines agricultural data with a business-oriented perspective to 
 The analysis was structured around four main questions:
 
 What are the main agricultural products in Colombia?
+
 How has agricultural production evolved over time?
+
 Which products may represent opportunities for innovation or productivity improvement?
+
 Which products could support potential new business lines or value-added opportunities?
-Dataset & Data Preparation
+
+## Dataset & Data Preparation
 
 The project uses FAOSTAT agricultural production data for Colombia.
 
@@ -355,23 +359,35 @@ This analysis provides a quantitative framework for identifying patterns and pot
 Key limitations include:
 
 Production and productivity data do not measure profitability.
+
 The dataset does not directly measure consumer demand.
+
 Production growth should not be interpreted as market-demand growth.
+
 Circular economy and market expansion categories identify candidates for further investigation rather than proven business opportunities.
+
 Median-based segmentation is relative to the analyzed dataset.
+
 Additional economic, geographic, environmental, and market data would be required for deeper decision-making.
 
-##Future Analysis
+## Future Analysis
 
 Future versions could incorporate:
 
 Agricultural prices
+
 Import and export data
+
 Production costs
+
 Geographic information
+
 Climate variables
+
 Water and land-use indicators
+
 Agricultural waste data
+
 Market demand indicators
 
 These additions could support more advanced analyses such as:
